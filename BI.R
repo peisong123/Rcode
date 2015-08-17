@@ -157,7 +157,7 @@ predict.data=sqldf("SELECT v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v13,v14 FROM data")
 predict.bestmodel=predict(best.model,newdata=predict.data,interval="predict")
 predict.bestmodel[697:731,]
 
-##############
+################
 
 
 
